@@ -20,6 +20,7 @@
     NSLog(@"wangran");
     NSLog(@"sad lksad ");
     return YES;
+    NSLog(@"aaaaa");
 }
 
 
