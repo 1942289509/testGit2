@@ -19,8 +19,12 @@
     // Override point for customization after application launch.
     NSLog(@"wangran");
     NSLog(@"sad lksad ");
+
+    NSLog(@"王冉王冉王冉");
+
     return YES;
     NSLog(@"aaaaa");
+
 }
 
 
