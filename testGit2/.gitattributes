@@ -1,1 +1,2 @@
 testGit2/IJKMediaFramework-2.framework/IJKMediaFramework filter=lfs diff=lfs merge=lfs -text
+*.framework/IJKMediaFramework filter=lfs diff=lfs merge=lfs -text
