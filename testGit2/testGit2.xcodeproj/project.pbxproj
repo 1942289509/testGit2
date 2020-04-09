@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04366A87243EED4900ECCDEF /* IJKMediaFramework-2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04366A86243EED4900ECCDEF /* IJKMediaFramework-2.framework */; };
 		04AF7ADC243467C8006A10E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AF7ADB243467C8006A10E7 /* AppDelegate.m */; };
 		04AF7ADF243467C8006A10E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AF7ADE243467C8006A10E7 /* SceneDelegate.m */; };
 		04AF7AE2243467C8006A10E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AF7AE1243467C8006A10E7 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04366A86243EED4900ECCDEF /* IJKMediaFramework-2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "IJKMediaFramework-2.framework"; sourceTree = "<group>"; };
 		04AF7AD7243467C8006A10E7 /* testGit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AF7ADA243467C8006A10E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04AF7ADB243467C8006A10E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04366A87243EED4900ECCDEF /* IJKMediaFramework-2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +109,7 @@
 		04AF7AD9243467C8006A10E7 /* testGit2 */ = {
 			isa = PBXGroup;
 			children = (
+				04366A86243EED4900ECCDEF /* IJKMediaFramework-2.framework */,
 				04AF7ADA243467C8006A10E7 /* AppDelegate.h */,
 				04AF7ADB243467C8006A10E7 /* AppDelegate.m */,
 				04AF7ADD243467C8006A10E7 /* SceneDelegate.h */,
@@ -445,6 +449,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZKFQ28H4LB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testGit2",
+				);
 				INFOPLIST_FILE = testGit2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +470,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZKFQ28H4LB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testGit2",
+				);
 				INFOPLIST_FILE = testGit2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
