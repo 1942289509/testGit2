@@ -20,6 +20,7 @@
     NSLog(@"wangran");
     NSLog(@"sad lksad ");
 
+    NSLog(@"issue123456");
     NSLog(@"测试分支分支");
 
     NSLog(@"王冉王冉王冉");
