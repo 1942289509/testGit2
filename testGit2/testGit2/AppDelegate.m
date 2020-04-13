@@ -20,7 +20,7 @@
 
 
 
-    NSLog(@"master");
+    NSLog(@"issue2222");
 
     return YES;
    
